@@ -4,8 +4,8 @@ spec:
   services:
   - name: service
     github:
-      branch: master
-      repo: w3irdrobot/voltageautounlock
+      branch: digitalocean-deploy-name-demo
+      repo: thinkmassive/voltageautounlock
     envs:
     - key: ADDRESS
       scope: RUN_TIME
